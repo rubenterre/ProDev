@@ -32,10 +32,11 @@
   }
   
   //Colors
-  $color-background: #08000D;
+  $color-background: #0D0D0D;
   $color-primary: white;
   $color-secundary: #28E98C;
   $color-third: #191919;
+  $color-hr:#979797;
   $font-primary: Poppins-Regular;
   $font-secundary: Poppins-Medium;
   $font-third: Sora;
@@ -59,6 +60,115 @@
 
 // Base Styles
 
+.main__hr{
+  border: 0.5px solid $color-hr;
+  margin: 10% 0px;
+}
 
 
 // Header
+
+.header__nav{
+  background-color: $color-background;
+  margin-top: 15px;
+}
+
+.header__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+
+.header__img{
+  width: 120px;
+}
+
+.header__menu{
+  background-color: $color-third;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header__li{
+  margin: 0px 10px;
+}
+
+.header__a{
+  color: white;
+  padding: 10px 0px;
+  border-bottom: 2px solid $color-third;
+  text-decoration: none;
+}
+
+.header__a:hover{
+  border-bottom: 2px solid white;
+}
+
+.header__socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+
+.header__social{
+  padding: 0px 10px;
+}
+
+// Home
+
+.home{
+  margin: 10% 0px;
+}
+
+.home__h1{
+  text-align: center;
+  font-family: $font-third;
+  font-size: 7vw;
+  font-weight: 600;
+}
+
+.home__span{
+  color: $color-secundary;
+}
+
+.home__pills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.home__pill{
+  height: 43px;
+  background-color: $color-third;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  border-radius: 8px;
+}
+
+.home__h4{
+  font-family: $font-primary;
+  font-weight: 400;
+  color: white;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.home__description{
+  font-family: $font-primary;
+  font-size: 1.3rem;
+}
