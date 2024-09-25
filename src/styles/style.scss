@@ -65,6 +65,35 @@
   margin: 10% 0px;
 }
 
+.main__pill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 0.5px solid $color-hr;
+  width: fit-content;
+  padding: 0px 10px;
+}
+
+.main__img{
+  width: 18px;
+}
+
+.main__tit{
+  font-family: $font-primary;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.main__h2{
+  font-family: $font-primary;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.main__span{
+  color: $color-secundary;
+}
 
 // Header
 
@@ -111,6 +140,10 @@
 
 .header__a:hover{
   border-bottom: 2px solid white;
+}
+
+.header__a--home{
+  border-bottom: 2px solid $color-secundary;
 }
 
 .header__socials{
@@ -170,5 +203,139 @@
 
 .home__description{
   font-family: $font-primary;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+// About
+
+.about__h3{
+  font-family: $font-primary;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.about__span{
+  color: $color-secundary;
+}
+
+.about__mail{
+  display: flex;
+  border-left: 3px solid $color-secundary;
+  padding-left: 10px;
+}
+
+.about__textmail{
+  padding-left: 10px;
+}
+
+.about__label{
+  font-family: $font-primary;
+  font-size: 1rem;
+  color: $color-hr;
+}
+
+.about__email{
+  font-family: $font-primary;
+  font-size: 1rem;
+}
+
+.about__button{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: $color-third;
+  padding: 10px;
+  border: 1px solid $color-hr;
+  border-radius: 8px;
+}
+
+.about__imgcv{
+  width: 14px;
+}
+
+.about__download{
+  padding-left: 10px;
+  font-family: $font-primary;
+  font-size: 1.2rem;
+}
+
+//Skills
+
+
+
+.skills__category{
+  margin: 40px 0px;
+  border-left: 3px solid $color-secundary;
+  padding-left: 20px;
+}
+
+.skills__tit{
+  font-family: $font-secundary;
+  font-size: 1.2rem;
+}
+
+.skills__p{
+  font-size: 1rem;
+  color: $color-hr;
+}
+
+.skills__cards{
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills__card{
+  width: 120px;
+  height: 128px;
+  border-radius: 8px;
+  border: 1px solid $color-hr;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: $color-third;
+}
+
+.skills__skillicon{
+  height: 54px;
+  margin-top: 20px;
+}
+
+.skills__name{
+  font-family: $font-secundary;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.skills__line{
+  border-bottom: 3px solid white;
+  width: 41px;
+}
+
+// Resume
+
+.resume__category{
+  margin: 40px 0px;
+  border-left: 3px solid $color-secundary;
+  padding-left: 20px;
+}
+
+.resume__tit{
+  font-family: $font-secundary;
+  font-size: 1.2rem;
+}
+
+.resume__p{
+  font-size: 1rem;
+  color: $color-hr;
 }
