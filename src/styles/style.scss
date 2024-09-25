@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+
+  //Fonts
+
+  @font-face {
+    font-family: Sora;
+    src: url(./fonts/Sora-VariableFont_wght.ttf);
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: Poppins-Regular;
+    src: url(./fonts/Poppins-Regular.ttf);
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url(./fonts/Poppins-Medium.ttf);
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(./fonts/Poppins-Bold.ttf);
+    font-display: swap;
+  }
+  
+  //Colors
+  $color-background: #08000D;
+  $color-primary: white;
+  $color-secundary: #28E98C;
+  $color-third: #191919;
+  $font-primary: Poppins-Regular;
+  $font-secundary: Poppins-Medium;
+  $font-third: Sora;
+  $font-important: Poppins-Bold;
+  
+  
+  body {
+   background: $color-background;
+   color: white;
+   -webkit-font-smoothing: antialiased;
+  }
+  
+  body, input, button {
+   font-size: 14px;
+   font-family: $font-primary;
+  }
+  
+  button {
+   cursor: pointer;
+  }
+
+// Base Styles
+
+
+
+// Header
