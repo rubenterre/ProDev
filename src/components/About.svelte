@@ -3,7 +3,12 @@
 		<div class="row">
 			<div class="col s12 m6">
 				<div class="about__portrait">
-					<img class="about__img" src="images/RubenTerre.png" alt="Imagen de Rubén Terré" />
+					<img
+						class="about__img"
+						src="images/RubenTerre.png"
+						alt="Imagen de Rubén Terré"
+						width="100%"
+					/>
 				</div>
 			</div>
 			<div class="col s12 m6">
@@ -19,9 +24,43 @@
 						y una pasión por crear sitios web visualmente impactantes y altamente funcionales.
 					</h3>
 					<div class="about__mail">
+						<div class="about__icon">
+							<img src="icons/badge_icon.svg" alt="Nombre y apellidos" class="about__iconmail" />
+						</div>
+
+						<div class="about__textmail">
+							<p class="about__label">Nombre y apellidos</p>
+							<p class="about__email">Rubén Arturo Terré Lameiro</p>
+						</div>
+					</div>
+					<div class="about__mail">
+						<div class="about__icon">
+							<img src="icons/website_icon.svg" alt="Website" class="about__iconmail" />
+						</div>
+
+						<div class="about__textmail">
+							<p class="about__label">Website</p>
+							<a href="https://www.rubenterre.com" class="about__email"> wwww.rubenterre.com </a>
+						</div>
+					</div>
+					<div class="about__mail">
+						<div class="about__icon">
+							<img
+								src="icons/location_icon.svg"
+								alt="Localización"
+								class="about__iconmail--location"
+							/>
+						</div>
+
+						<div class="about__textmail">
+							<p class="about__label">Localización</p>
+							<p class="about__email">Santiago de Compostela</p>
+						</div>
+					</div>
+					<div class="about__mail">
 						<a href="emailto:info@rubenterre.com">
 							<div class="about__icon">
-								<img src="icons/email_icon.svg" alt="" class="about__iconmail" />
+								<img src="icons/email_icon.svg" alt="Correo electrónico" class="about__iconmail" />
 							</div>
 						</a>
 						<div class="about__textmail">

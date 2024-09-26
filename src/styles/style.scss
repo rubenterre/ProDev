@@ -96,6 +96,7 @@
   font-size: 1.7rem;
   color: white;
   text-align: center;
+  margin: 50px 0px;
 }
 
 .main__span{
@@ -167,7 +168,7 @@
 // Home
 
 .home{
-  margin: 10% 0px;
+  margin: 50px 0px;
 }
 
 .home__h1{
@@ -198,6 +199,14 @@
   justify-content: center;
   padding: 0px 10px;
   border-radius: 8px;
+}
+
+.home__pill:hover{
+  background-color: $color-secundary;
+
+  & .home__h4{
+    color: $color-background;
+  }
 }
 
 .home__h4{
@@ -234,6 +243,15 @@
   display: flex;
   border-left: 3px solid $color-secundary;
   padding-left: 10px;
+  margin: 20px 0px;
+}
+
+.about__icon{
+  width: 50px;
+}
+
+.about__iconmail--location{
+  width: 25px;
 }
 
 .about__textmail{
@@ -250,10 +268,10 @@
   font-family: $font-primary;
   font-size: 1rem;
   color: white;
+  margin: 10px 0px;
 }
 
 .about__button{
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,6 +280,11 @@
   padding: 10px;
   border: 1px solid $color-hr;
   border-radius: 8px;
+  margin: 40px 0px;
+}
+
+.about__button:hover{
+  border: 1px solid white;
 }
 
 .about__imgcv{
@@ -311,6 +334,15 @@
   align-items: center;
   flex-direction: column;
   background-color: $color-third;
+}
+
+.skills__card:hover{
+  border: 1px solid white;
+  background-color: $color-secundary;
+
+  & .skills__name{
+    color: $color-background;
+  }
 }
 
 .skills__skillicon{
@@ -370,6 +402,7 @@
 
 .resume__card:hover{
   border-left: 3px solid $color-secundary;
+  
 }
 
 .resume__logo{
@@ -416,13 +449,18 @@
 .portfolio__cards{
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  gap: 50px;
 }
 
 .portfolio__card{
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.portfolio__work{
+  width: 100%;
 }
 
 .portfolio__details{
@@ -512,7 +550,7 @@ margin: 0px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 45%;
   padding: 10px;
 }
 
@@ -546,4 +584,31 @@ margin: 0px;
   align-items: center;
   gap: 20px;
   margin: 20px 0px;
+}
+
+// Footer
+
+.footer{
+  background-color: $color-third;
+  padding: 20px 0px;
+  margin-top: 30px;
+}
+
+.footer__p{
+  font-family: $font-primary;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.footer__svelte{
+  font-family: $font-primary;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.footer__a{
+  color: $color-secundary;
 }

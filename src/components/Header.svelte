@@ -57,16 +57,16 @@
             <div class="col s12">
                 <div class="header__socials">
                     <div class="header__social">
-                        <a href="https://www.linkedin.com/in/rubenterrelameiro"><img src="icons/linkedin.svg" alt="Perfil de linkedin de Rubén Terré"></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/rubenterrelameiro"><img src="icons/linkedin.svg" alt="Perfil de linkedin de Rubén Terré"></a>
                     </div>
                     <div class="header__social">
-                        <a href="https://www.behance.net/rubenterre"><img src="icons/behance.svg" alt="Perfil de behance de Rubén Terré"></a>
+                        <a target="_blank" href="https://www.behance.net/rubenterre"><img src="icons/behance.svg" alt="Perfil de behance de Rubén Terré"></a>
                     </div>
                     <div class="header__social">
-                        <a href="https://github.com/rubenterre"><img src="icons/github.svg" alt="Perfil de github de Rubén Terré"></a>
+                        <a target="_blank" href="https://github.com/rubenterre"><img src="icons/github.svg" alt="Perfil de github de Rubén Terré"></a>
                     </div>
                     <div class="header__social">
-                        <a href="https://www.instagram.com/rubenterre.studiodesign/"><img src="icons/instagram.svg" alt="Perfil de instagram de Rubén Terré"></a>
+                        <a target="_blank" href="https://www.instagram.com/rubenterre.studiodesign/"><img src="icons/instagram.svg" alt="Perfil de instagram de Rubén Terré"></a>
                     </div>
                 </div>
             </div>

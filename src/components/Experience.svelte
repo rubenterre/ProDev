@@ -1,5 +1,14 @@
 <script>
 	const experiencia = [
+/* 		{
+			icon: 'icons/ap-logo-blanco-medium-1.svg',
+            width: '60px',
+			name: 'Grupo Academia Postal',
+			profession: 'Profesor titular',
+			date: '2024',
+			description:
+				'Docencia de certificados de profesionalidad relacionados con desarrollo web y IT de sistemas microinformáticos.'
+		}, */
 		{
 			icon: 'icons/gri_logo.svg',
             width: '60px',
@@ -17,14 +26,14 @@
 			description:
 				'Docencia de certificados de profesionalidad relacionados con desarrollo web y IT de sistemas microinformáticos.'
 		},
-		{
+/* 		{
 			icon: 'icons/RT_logo.svg',
             width: '40px',
 			name: 'Freelance',
 			profession: 'Desarrollador front-end',
 			date: '2022-2023',
 			description: 'Desarrollo, mantenimiento y actualización de páginas web corporativas, blogs…'
-		},
+		}, */
 		{
 			icon: 'icons/ADM-500x133_blanco.svg',
             width: '100px',
@@ -54,7 +63,6 @@
 					<div class="resume__card">
 						<div class="row">
                             <div class="col s12">
-							
 								<div class="resume__detail">
 									<div class="resume__pill">
 										<h4 class="resume__h4">

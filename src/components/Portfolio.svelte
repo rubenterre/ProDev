@@ -2,7 +2,7 @@
 	const projects = [
 		{
 			banner: 'images/destino_viquingo_web.webp',
-			name: 'Destino Viquingo',
+			name: 'Destino Viquingo web',
 			description: 'Página web del libro Destino Viquingo.',
 			url: 'https://destinoviquingo.rubenterre.com',
 			urlcode: 'https://github.com/rubenterre/DestinoViquingoWeb',
@@ -16,20 +16,7 @@
 				{ icon: 'icons/sketch_icon_white.svg', name: 'Sketch' }
 			]
 		},
-		{
-			banner: 'images/Libro_destino_viquingo.webp',
-			name: 'Destino Viquingo',
-			description: 'Maquetación y autoría del libro',
-			url: 'https://destinoviquingo.rubenterre.com',
-			technologies: [
-				{
-					icon: 'icons/indesign_icon_white.svg',
-					name: 'InDesign'
-				},
-				{ icon: 'icons/photoshop_icon_white.svg', name: 'Photoshop' },
-				{ icon: 'icons/illustrator_icon_white.svg', name: 'Illustrator' }
-			]
-		},
+		
 		/*     {
         "banner": "images/projects/SoloHistoria.png",
         "name": "SoloHistoria App",
@@ -52,8 +39,9 @@
 		{
 			banner: 'images/GaliciaWeather_app.webp',
 			name: 'GaliciaWeather App',
-			description: 'Aplicación del tiempo con ilustraciones de ciudades de Galicia.',
+			description: 'App del tiempo con ilustraciones dinámicas',
 			url: 'https://www.behance.net/gallery/155847275/Galicia-Weather-App',
+			urlcode: '',
 			technologies: [
 				{
 					icon: 'icons/svelte_icon_white.svg',
@@ -63,14 +51,38 @@
 			]
 		}
 
-		/*     {
-        "banner": "images/projects/Museo_Pobo_Galego.png",
-        "name": "Museo Pobo Galego",
-        "description": "Concept da páxina web do Museo do Pobo Galego",
-        "url": "https://www.behance.net/gallery/92767455/Museo-do-Pobo-Galego-Web-Design-Concept",
-        "technologies": "<img class=\"proyectos__icon\" src=\"icons/skills/sketch_dark_icon.svg\" alt=\"Sketch\" width=\"20px\">"
-    } */
 	];
+
+	const projectsDesign = [
+		{
+			banner: 'images/Libro_destino_viquingo.webp',
+			name: 'Destino Viquingo libro',
+			description: 'Maquetación y autoría del libro',
+			url: 'https://destinoviquingo.rubenterre.com',
+			technologies: [
+				{
+					icon: 'icons/indesign_icon_white.svg',
+					name: 'InDesign'
+				},
+				{ icon: 'icons/photoshop_icon_white.svg', name: 'Photoshop' },
+				{ icon: 'icons/illustrator_icon_white.svg', name: 'Illustrator' }
+			]
+		},
+		{
+        banner: "images/MuseoPoboGalego_Concept.webp",
+        name: "Museo Pobo Galego",
+        description: "Concept da páxina web do Museo do Pobo Galego",
+        url: "https://www.behance.net/gallery/92767455/Museo-do-Pobo-Galego-Web-Design-Concept",
+        technologies: [
+				{
+					icon: 'icons/sketch_icon_white.svg',
+					name: 'InDesign'
+				},
+				{ icon: 'icons/photoshop_icon_white.svg', name: 'Photoshop' },
+				{ icon: 'icons/illustrator_icon_white.svg', name: 'Illustrator' }
+			]
+    } 
+	]
 </script>
 
 <section class="portfolio" id="portfolio">
@@ -90,50 +102,92 @@
 				<h2 class="main__h2">
 					Mostrando algunos de mis <span class="main__span">trabajos</span> en desarrollo y diseño web.
 				</h2>
-
 				<div class="portfolio__cards">
-					{#each projects as item}
-						<div class="portfolio__card">
-							<div class="row">
-								<div class="col s12 m6">
-									<div class="portfolio__img">
-										<img src={item.banner} alt={item.name} class="portfolio__work" />
+					<div class="row">
+						<div class="col s12 m6">
+							{#each projects as item}
+								<div class="portfolio__card">
+									 <div class="row">
+										 <div class="col s12 m6">
+											<div class="portfolio__img">
+												<img src={item.banner} alt={item.name} class="portfolio__work" />
+											</div>
+										</div>
+										<div class="col s12 m6">
+											<div class="portfolio__details">
+												<h3 class="portfolio__h3">{item.name}</h3>
+												<div class="portfolio__pills">
+													{#each item.technologies as tech}
+														<img class="portfolio__pill" src={tech.icon} alt={tech.name} width="25px" />
+													{/each}
+												</div>
+												<p class="portfolio__description">
+													{item.description}
+												</p>
+												<div class="portfolio__buttons">
+													<a class="portfolio__a" href={item.urlcode}>
+														<img
+															src="icons/brand-github.svg"
+															alt="Logo de GitHub"
+															class="portfolio__code"
+														/>
+														<p class="portfolio__url">Código</p>
+													</a>
+													<a class="portfolio__a portfolio__a--preview" href={item.url}>
+														<img
+															src="icons/link_symbol-1.png"
+															alt="Enlace a la web del proyecto"
+															class="portfolio__code"
+														/>
+														<p class="portfolio__url">Previsualización</p>
+													</a>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="col s12 m6">
-									<div class="portfolio__details">
-										<h3 class="portfolio__h3">{item.name}</h3>
-										<div class="portfolio__pills">
-											{#each item.technologies as tech}
-												<img class="portfolio__pill" src={tech.icon} alt={tech.name} width="25px" />
-											{/each}
+							{/each}
+						</div>
+						<div class="col s12 m6">
+							{#each projectsDesign as item}
+							<div class="portfolio__card">
+								 <div class="row">
+									 <div class="col s12 m6">
+										<div class="portfolio__img">
+											<img src={item.banner} alt={item.name} class="portfolio__work" />
 										</div>
-										<p class="portfolio__description">
-											{item.description}
-										</p>
-										<div class="portfolio__buttons">
-											<a class="portfolio__a" href={item.urlcode}>
-												<img
-													src="icons/brand-github.svg"
-													alt="Logo de GitHub"
-													class="portfolio__code"
-												/>
-												<p class="portfolio__url">Código</p>
-											</a>
-											<a class="portfolio__a portfolio__a--preview" href={item.url}>
-												<img
-													src="icons/link_symbol-1.png"
-													alt="Enlace a la web del proyecto"
-													class="portfolio__code"
-												/>
-												<p class="portfolio__url">Previsualización</p>
-											</a>
+									</div>
+									<div class="col s12 m6">
+										<div class="portfolio__details">
+											<h3 class="portfolio__h3">{item.name}</h3>
+											<div class="portfolio__pills">
+												{#each item.technologies as tech}
+													<img class="portfolio__pill" src={tech.icon} alt={tech.name} width="25px" />
+												{/each}
+											</div>
+											<p class="portfolio__description">
+												{item.description}
+											</p>
+											<div class="portfolio__buttons">
+
+												<a class="portfolio__a portfolio__a--preview" href={item.url}>
+													<img
+														src="icons/link_symbol-1.png"
+														alt="Enlace a la web del proyecto"
+														class="portfolio__code"
+													/>
+													<p class="portfolio__url">Previsualización</p>
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
+						{/each}
 						</div>
-					{/each}
+					</div>
+
+							
 				</div>
 
 				<div class="portfolio__more">

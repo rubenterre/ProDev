@@ -22,20 +22,20 @@
         "date": "2015 - 2017",
         "description":"Aprendizaje profundo de las herramientas de diseño gráfico: Adobe Creative Cloud"
     },
-    {
+/*     {
         "icon": "icons/USC-Logo2.svg",
         "name": "EXPERTO UNIV. EN GESTIÓN CULTURAL",
         "institution": "Universidade de Santiago de Compostela",
         "date": "2014 - 2015",
         "description":"Conocimientos en gestión y desarrollo de iniciativas culturales"
-    },
-    {
+    }, */
+/*     {
         "icon": "icons/USC-Logo2.svg",
         "name": "MASTER OFICIAL ESTUDOS MEDIEVAIS EUROPEOS",
         "institution": "Universidade de Santiago de Compostela",
         "date": "2012 - 2013",
         "description":"Estudios universitarios en filología, historia del arte e historia medieval europea."
-    },
+    }, */
     {
         "icon": "icons/USC-Logo2.svg",
         "name": "LICENCIATURA EN HISTORIA",

@@ -25,7 +25,7 @@
 						<p class="contact__p">info[arroba]rubenterre.com</p>
 					</a>
 
-					<a href="mailto:info@rubenterre.com" class="contact__button">
+					<a target="_blank" href="https://maps.app.goo.gl/LCEdfnkkvvrVwUEW7" class="contact__button">
 						<div class="contact__img">
 							<img src="icons/location_icon.svg" alt="" height="50px" class="contact__icon" />
 						</div>
@@ -39,16 +39,16 @@
 						mi trabajo y actualizaciones en mis <span class="main__span">redes sociales.</span>
 					</h2>
 					<div class="contact__socials">
-						<a href="https://www.linkedin.com/in/rubenterrelameiro" class="contact__social">
+						<a target="_blank" href="https://www.linkedin.com/in/rubenterrelameiro" class="contact__social">
 							<img src="icons/linkedin_box.svg" alt="Enlace a perfil de Linkedin" />
 						</a>
-						<a href="https://www.behance.net/rubenterre" class="contact__social">
+						<a target="_blank" href="https://www.behance.net/rubenterre" class="contact__social">
 							<img src="icons/behance_box.svg" alt="Enlace a perfil de Behance" />
 						</a>
-						<a href="https://github.com/rubenterre" class="contact__social">
+						<a target="_blank" href="https://github.com/rubenterre" class="contact__social">
 							<img src="icons/github_box.svg" alt="Enlace a perfil de Github" />
 						</a>
-						<a href="https://www.instagram.com/rubenterre.studiodesign/" class="contact__social">
+						<a target="_blank" href="https://www.instagram.com/rubenterre.studiodesign/" class="contact__social">
 							<img src="icons/instagram_box.svg" alt="Enlace a perfil de Instagram" />
 						</a>
 					</div>
