@@ -132,3 +132,4 @@ dist
 # system files
 
 .DS_Store
+static/.DS_Store
