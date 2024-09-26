@@ -7,9 +7,11 @@
 
 <section class="resume" id="resume">
     <div class="container">
+        <div class="main__pills">
         <div class="main__pill">
-            <img class="main__img" src="icons/about_icon.png" alt="Icono del apartado sobre mí" />
+            <img class="main__img" src="icons/about_icon.png" alt="Icono del apartado sobre mi trayectoria laboral y académica" />
             <p class="main__tit">Sobre mí</p>
+        </div>
         </div>
         <h2 class="main__h2">
             Experiencia <span class="main__span">&</span> Educación
@@ -41,5 +43,6 @@
                 <Education/>
             </div>
         </div>
+        <hr class="main__hr">
     </div>
 </section>

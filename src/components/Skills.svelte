@@ -8,10 +8,13 @@
      <div class="container">
          <div class="row">
              <div class="col s12">
+                <div class="main__pills">
+
                  <div class="main__pill">
-                     <img class="main__img" src="icons/skills_icon.png" alt="Icono del apartado sobre mí" />
+                     <img class="main__img" src="icons/skills_icon.png" alt="Icono del apartado sobre mis habilidades" />
                      <p class="main__tit">Habilidades</p>
                  </div>
+                </div>
                  <h2 class="main__h2">
                      Algunas de mis <span class="main__span">habilidades</span> más destacadas.
                  </h2>

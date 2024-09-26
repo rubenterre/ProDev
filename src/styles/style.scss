@@ -65,6 +65,12 @@
   margin: 10% 0px;
 }
 
+.main__pills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .main__pill{
   display: flex;
   justify-content: center;
@@ -89,6 +95,7 @@
   font-family: $font-primary;
   font-size: 1.7rem;
   color: white;
+  text-align: center;
 }
 
 .main__span{
@@ -242,6 +249,7 @@
 .about__email{
   font-family: $font-primary;
   font-size: 1rem;
+  color: white;
 }
 
 .about__button{
@@ -338,4 +346,204 @@
 .resume__p{
   font-size: 1rem;
   color: $color-hr;
+}
+
+// Experience
+
+.resume{
+  margin: 20px 0px;
+}
+
+.resume__cards{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.resume__card{
+  display: flex;
+  justify-content: space-between;
+  border-left: 3px solid $color-hr;
+  padding-left: 20px;
+}
+
+.resume__card:hover{
+  border-left: 3px solid $color-secundary;
+}
+
+.resume__logo{
+  margin: 20px 0px;
+}
+
+.resume__pill{
+  border: 0.5px solid $color-hr;
+  border-radius: 8px;
+  width: 110px;
+  background-color: $color-third;
+}
+
+.resume__h4{
+  font-family: $font-primary;
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px;
+}
+
+.resume__h3{
+  font-family: $font-secundary;
+  font-size: 1.3rem;
+  margin: 10px 0px;
+  color: white;
+}
+
+.resume__name{
+  font-family: $font-primary;
+  font-size: 1.2rem;
+  color: $color-hr;
+  padding-bottom: 10px;
+}
+
+.resume__description{
+  font-family: $font-primary;
+  font-size: 1rem;
+  color: white;
+}
+
+
+// Portfolio
+
+.portfolio__cards{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.portfolio__card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.portfolio__details{
+  margin-left: 20px;
+}
+
+.portfolio__h3{
+font-family: $font-primary;
+font-size: 1.5rem;
+margin: 0px;
+}
+
+.portfolio__pills{
+  margin: 15px 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.portfolio__description{
+  font-family: $font-primary;
+  color: $color-hr;
+  font-size: 1rem;
+}
+
+.portfolio__buttons{
+  display: flex;
+  margin: 20px 0px;
+  gap: 20px;
+}
+
+.portfolio__a{
+  display: flex;
+  border: 1px solid $color-hr;
+  border-radius: 8px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  background-color: $color-third;
+}
+
+.portfolio__code{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.portfolio__url{
+  font-family: $font-primary;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio__a--preview{
+  width: 160px;
+}
+
+.portfolio__more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.portfolio__a--more{
+  width: 250px;
+  font-family: $font-primary;
+  font-size: 1.2rem;
+  color: white;
+}
+
+// Contact
+
+.contact__buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact__button{
+  border: .5px solid $color-hr;
+  border-radius: 8px;
+  background-color: $color-third;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.contact__img{
+  display: flex;
+  place-content: center;
+  padding: 10px;
+}
+
+.contact__label{
+  font-family: $font-primary;
+  color: $color-hr;
+  font-size: 1.1rem;
+  margin: 10px 0px;
+}
+
+.contact__p{
+  font-family: $font-primary;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact__h2{
+  font-size: 1.3rem;
+}
+
+.contact__socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0px;
 }
