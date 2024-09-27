@@ -93,7 +93,7 @@
 					<div class="main__pill">
 						<img
 							class="main__img"
-							src="icons/portfolio_icon.png"
+							src="icons/portfolio_icon.svg"
 							alt="Icono del apartado sobre mis trabajos y proyectos"
 						/>
 						<p class="main__tit">Portfolio</p>

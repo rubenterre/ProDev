@@ -47,7 +47,7 @@
                 <div class="header__menu">
                     <ul class="header__ul">
                         <li class="header__li"><a class="header__a" href="#home">Inicio</a></li>
-                        <li class="header__li"><a class="header__a" href="#about">Sobre mí</a></li>
+                       <!--  <li class="header__li"><a class="header__a" href="#about">Sobre mí</a></li> -->
                         <li class="header__li"><a class="header__a" href="#resume">Trayectoria</a></li>
                         <li class="header__li"><a class="header__a" href="#portfolio">Portfolio</a></li>
                         <li class="header__li header__li--contact"><a class="header__a header__a--contact" href="#contact">Contacto</a></li>

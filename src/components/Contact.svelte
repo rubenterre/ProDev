@@ -6,7 +6,7 @@
 					<div class="main__pill">
 						<img
 							class="main__img"
-							src="icons/contact_icon.png"
+							src="icons/contact_icon.svg"
 							alt="Icono del apartado de contacto"
 						/>
 						<p class="main__tit">Contacto</p>
@@ -33,12 +33,12 @@
 						<p class="contact__p">Santiago de Compostela</p>
 					</a>
 				</div>
-				<div class="contact__social">
+				<div class="contact__socials">
 					<h2 class="main__h2 contact__h2">
 						No dudes en ponerte en contacto para consultas o colaboraciones. Puedes encontrar más de
 						mi trabajo y actualizaciones en mis <span class="main__span">redes sociales.</span>
 					</h2>
-					<div class="contact__socials">
+					<div class="contact__hub">
 						<a target="_blank" href="https://www.linkedin.com/in/rubenterrelameiro" class="contact__social">
 							<img src="icons/linkedin_box.svg" alt="Enlace a perfil de Linkedin" />
 						</a>

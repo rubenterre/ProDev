@@ -9,10 +9,10 @@
 			<div class="main__pill">
 				<img
 					class="main__img"
-					src="icons/about_icon.png"
+					src="icons/education-experience_icon.svg"
 					alt="Icono del apartado sobre mi trayectoria laboral y académica"
 				/>
-				<p class="main__tit">Sobre mí</p>
+				<p class="main__tit">Experiencia & Educación</p>
 			</div>
 		</div>
 

@@ -16,10 +16,12 @@
 		</div>
 	</div>
 	<div class="home__description">
+		<p class="home__p">
 		Como <span class="main__span">desarrollador web</span>, me especializo en ofrecer soluciones digitales personalizadas. Como
 		<span class="main__span">diseñador gráfico</span>, puedo crear experiencias visuales a medida. Como <span class="main__span">educador</span>, comparto mi pasión
 		y conocimiento para formar a futuros profesionales.,<br> Explora mis proyectos y descubre cómo puedo
 		ayudarte a llevar tus ideas al siguiente nivel. ¡Construyamos juntos!
+		</p>
 	</div>
     <hr class="main__hr">
     </div>

@@ -11,7 +11,7 @@
                 <div class="main__pills">
 
                  <div class="main__pill">
-                     <img class="main__img" src="icons/skills_icon.png" alt="Icono del apartado sobre mis habilidades" />
+                     <img class="main__img" src="icons/skills_icon.svg" alt="Icono del apartado sobre mis habilidades" />
                      <p class="main__tit">Habilidades</p>
                  </div>
                 </div>
