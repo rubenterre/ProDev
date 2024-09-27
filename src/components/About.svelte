@@ -70,7 +70,7 @@
 							</a>
 						</div>
 					</div>
-					<a href="Ruben_Arturo_Terre_Lameiro_CV2024.pdf" class="about__button">
+					<a href="Ruben_Arturo_Terre_Lameiro_CV2024.pdf" download class="about__button">
 						<img
 							class="about__imgcv"
 							src="/icons/download.svg"

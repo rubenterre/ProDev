@@ -108,12 +108,12 @@
 							{#each projects as item}
 								<div class="portfolio__card">
 									 <div class="row">
-										 <div class="col s12 m6">
+										 <div class="col s12 m12 xl6">
 											<div class="portfolio__img">
 												<img src={item.banner} alt={item.name} class="portfolio__work" />
 											</div>
 										</div>
-										<div class="col s12 m6">
+										<div class="col s12 m12 xl6">
 											<div class="portfolio__details">
 												<h3 class="portfolio__h3">{item.name}</h3>
 												<div class="portfolio__pills">
@@ -139,7 +139,7 @@
 															alt="Enlace a la web del proyecto"
 															class="portfolio__code"
 														/>
-														<p class="portfolio__url">Previsualización</p>
+														<p class="portfolio__url">Ver</p>
 													</a>
 												</div>
 											</div>
@@ -152,12 +152,12 @@
 							{#each projectsDesign as item}
 							<div class="portfolio__card">
 								 <div class="row">
-									 <div class="col s12 m6">
+									 <div class="col s12 m12 xl6">
 										<div class="portfolio__img">
 											<img src={item.banner} alt={item.name} class="portfolio__work" />
 										</div>
 									</div>
-									<div class="col s12 m6">
+									<div class="col s12 m12 xl6">
 										<div class="portfolio__details">
 											<h3 class="portfolio__h3">{item.name}</h3>
 											<div class="portfolio__pills">
@@ -176,7 +176,7 @@
 														alt="Enlace a la web del proyecto"
 														class="portfolio__code"
 													/>
-													<p class="portfolio__url">Previsualización</p>
+													<p class="portfolio__url">Ver</p>
 												</a>
 											</div>
 										</div>
@@ -191,7 +191,7 @@
 				</div>
 
 				<div class="portfolio__more">
-					<a href="" class="portfolio__a portfolio__a--more"> VER MÁS TRABAJOS </a>
+					<a href="https://www.behance.net/rubenterre" class="portfolio__a portfolio__a--more"> VER MÁS TRABAJOS </a>
 				</div>
 			</div>
 		</div>
