@@ -78,7 +78,7 @@
   <meta property="og:url" content="https://rubenterre.com" />
   <meta
     property="og:image"
-    content="https://rubenterre.com/rubenterre_OGraph.jpeg"    />
+    content="https://rubenterre.com/rubenterre__OGraph.jpeg"    />
 
   <!-- Opcionales adicionales de Open Graph -->
   <meta
@@ -101,7 +101,7 @@
   />
   <meta
     name="twitter:image"
-    content="https://rubenterre.com/rubenterre_OGraph.jpeg"/>
+    content="https://rubenterre.com/rubenterre__OGraph.jpeg"/>
   <meta name="twitter:site" content="@RubenTerre" />
 
   <!-- Otros meta tags -->
