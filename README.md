@@ -6,7 +6,7 @@
 
 En él encontrarás información sobre mis habilidades, proyectos, experiencia laboral y formación académica. Además, podrás descargar mi currículum y ponerte en contacto conmigo.
 
-## Tecnologías Utilizadas
+## Tecnologías utilizadas
 
 - **Sveltekit**: Un constructor de aplicaciones frontend rápido y optimizado.
 - **JavaScript**: Lenguaje de programación utilizado para la interactividad en el sitio.
@@ -58,8 +58,13 @@ He seguido las mejores prácticas para asegurar que la página sea accesible par
 
 Para optimizar el rendimiento, he minimizado el uso de recursos y asegurado que la página se cargue rápidamente. Esto incluye la compresión de imágenes y el uso eficiente de scripts.
 
-## Instalación y Uso
+## Instalación y uso
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/rubenterre/MiPortfolio.git
+   git clone https://github.com/rubenterre/ProDev.git
+   cd ProDev
+   npm install
+   npm run dev
+    ```
+
