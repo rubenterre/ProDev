@@ -14,7 +14,7 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 - **MaterializeCSS**: Framework CSS basado en Material Design, utilizado para crear una interfaz de usuario atractiva y responsiva.
 - **Sketch**: Herramienta utilizada para el diseño inicial de la página.
 
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=FF3E00&labelColor=101010)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white&labelColor=101010)
 [![HTML5](https://img.shields.io/badge/HTML5-ffff00?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)]()
 [![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white&labelColor=101010)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
