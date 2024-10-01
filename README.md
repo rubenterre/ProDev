@@ -25,64 +25,24 @@ En él encontrarás información sobre mis habilidades, proyectos, experiencia l
 ## Estructura del proyecto
 
 ```
-/
+ProDev/
 ├── public/
 │   ├── favicon/
-│   │   └── (favicon en varios tamaños)
 │   ├── icons/
-│   │    └── skills/
-│   │    │  └── (imágenes de iconos de habilidades)
-│   │    └── social/
-│   │       └── (imágenes de iconos de redes sociales)
 │   ├── images/
-│   │    └── (imágenes de proyectos, libro...)
 │   ├── logos/
-│   │    └── (imágenes de logos de empresas e instituciones)
 │   ├── Ruben_Arturo_Terre_Lameiro_CV_2024.pdf
-│   ├── Ruben_Terre_Logo.svg
 │   └── rubenterre_OGraph.jpg
-│ 
 ├── src/
-│   ├── json/
-│   │    └── desarrollo.json
-│   │    └── design.json
-│   │    └── experiencia.json
-│   │    └── formacion.json
-│   │    └── proyectos.json
 │   ├── components/
-│   │    └── Experiencia.js
-│   │    └── Header.js
-│   │    └── Footer.js
-│   │    └── Formacion.js
-│   │    └── Habilidades.js
-│   │    └── Inicio.js
-│   │    └── materialize.js
-│   │    └── Projects.js
-│   │    └── Noticias.js
-│   │    └── sidenav.js
-│   ├─ styles/
-│   │    ├──components/
-│   │    │    └── _global.scss
-│   │    │    └── _grid.scss
-│   │    │    └── _navbar.scss
-│   │    │    └── _normalize.scss
-│   │    │    └── _sidenav.scss
-│   │    │    └── _variables.scss
-│   │    │    └── _modal.scss
-│   │    ├── fonts/
-│   │    │    └── Poppins-Bold.ttf
-│   │    │    └── Poppins-Medium.ttf
-│   │    │    └── Poppins-Regular.ttf
-│   │    └── style.scss
-│   │    └── customn-materialize.scss
+│   ├── styles/
+│   ├── json/
 │   └── main.js
-├── package.json
-├── package-lock.json
-├── LICENSE
-├── index.html
 ├── .gitignore
-├── .gitatributes
-└── README.md
+├── .prettierrc
+├── LICENSE
+├── README.md
+└── package.json
 ```
 ## Metodologías y mejores prácticas
 
