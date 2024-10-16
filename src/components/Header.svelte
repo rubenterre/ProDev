@@ -20,6 +20,9 @@
             <div class="col s3">
                 <div class="header__socials">
                     <div class="header__social">
+                        <a href="https://www.youtube.com/@rubenterre"><img src="icons/youtube.svg" alt="Perfil de YouTube de Rubén Terré"></a>
+                    </div>
+                    <div class="header__social">
                         <a href="https://www.linkedin.com/in/rubenterrelameiro"><img src="icons/linkedin.svg" alt="Perfil de linkedin de Rubén Terré"></a>
                     </div>
                     <div class="header__social">
@@ -56,6 +59,9 @@
             </div>
             <div class="col s12">
                 <div class="header__socials">
+                    <div class="header__social">
+                        <a href="https://www.youtube.com/@rubenterre"><img src="icons/youtube.svg" alt="Perfil de YouTube de Rubén Terré"></a>
+                    </div>
                     <div class="header__social">
                         <a target="_blank" href="https://www.linkedin.com/in/rubenterrelameiro"><img src="icons/linkedin.svg" alt="Perfil de linkedin de Rubén Terré"></a>
                     </div>

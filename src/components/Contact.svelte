@@ -39,6 +39,9 @@
 						mi trabajo y actualizaciones en mis <span class="main__span">redes sociales.</span>
 					</h2>
 					<div class="contact__hub">
+						<a target="_blank" href="https://www.youtube.com/@rubenterre" class="contact__social">
+							<img src="icons/youtube_box.svg" alt="Enlace a perfil de YouTube" />
+						</a>
 						<a target="_blank" href="https://www.linkedin.com/in/rubenterrelameiro" class="contact__social">
 							<img src="icons/linkedin_box.svg" alt="Enlace a perfil de Linkedin" />
 						</a>

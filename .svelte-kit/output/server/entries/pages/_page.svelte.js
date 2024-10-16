@@ -247,12 +247,20 @@ const Portfolio = create_ssr_component(($$result, $$props, $$bindings, slots) =>
         }
       ]
     },
-    /*     {
-          "banner": "images/projects/SoloHistoria.png",
+    /*      {
+          "banner": "images/SoloHistoria.webp",
           "name": "SoloHistoria App",
           "description": "Aplicación para aprender historia medieval.",
           "url": "https://www.behance.net/gallery/97500747/SoloHistoria-App-Learning-history",
-          "technologies": "<img class=\"proyectos__icon\"  src=\"icons/skills/html5_icon.svg\" alt=\"HTML\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/css_icon.svg\" alt=\"CSS\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/javascript_icon.svg\" alt=\"JavaScript\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/sketch_dark_icon.svg\" alt=\"Sketch\" width=\"20px\">"
+          "technologies": [
+    		{
+    			icon: 'icons/html5_icon_white.svg',
+    			name: 'HTML'
+    		},
+    		{ icon: 'icons/css_icon_white.svg', name: 'CSS' },
+    		{ icon: 'icons/javascript_icon_white.svg', name: 'JavaScript' },
+    		{ icon: 'icons/sketch_icon_white.svg', name: 'Sketch' }
+    	]
       }, */
     {
       banner: "images/ADM_Comunicaciones_web.webp",
@@ -326,7 +334,7 @@ const Portfolio = create_ssr_component(($$result, $$props, $$bindings, slots) =>
       ]
     }
   ];
-  return `<section class="portfolio" id="portfolio"><div class="container"><div class="row"><div class="col s12"><div class="main__pills" data-svelte-h="svelte-zz6wa2"><div class="main__pill"><img class="main__img" src="icons/portfolio_icon.svg" alt="Icono del apartado sobre mis trabajos y proyectos"> <p class="main__tit">Portfolio</p></div></div> <h2 class="main__h2" data-svelte-h="svelte-1pv2u0i">Mostrando algunos de mis <span class="main__span">trabajos</span> en desarrollo y diseño web.</h2> <div class="portfolio__cards"><div class="row"><div class="col s12 m6">${each(projects, (item) => {
+  return `<section class="portfolio" id="portfolio"><div class="container"><div class="row"><div class="col s12"><div class="main__pills" data-svelte-h="svelte-zz6wa2"><div class="main__pill"><img class="main__img" src="icons/portfolio_icon.svg" alt="Icono del apartado sobre mis trabajos y proyectos"> <p class="main__tit">Portfolio</p></div></div> <h2 class="main__h2" data-svelte-h="svelte-xbtqd7">Mostrando algunos de mis <span class="main__span">trabajos</span> en desarrollo web y diseño gráfico.</h2> <div class="portfolio__cards"><div class="row"><div class="col s12 m6">${each(projects, (item) => {
     return `<div class="portfolio__card"><div class="row"><div class="col s12 m12 xl6"><div class="portfolio__img"><img${add_attribute("src", item.banner, 0)}${add_attribute("alt", item.name, 0)} class="portfolio__work"> </div></div> <div class="col s12 m12 xl6"><div class="portfolio__details"><h3 class="portfolio__h3">${escape(item.name)}</h3> <div class="portfolio__pills">${each(item.technologies, (tech) => {
       return `<img class="portfolio__pill"${add_attribute("src", tech.icon, 0)}${add_attribute("alt", tech.name, 0)} width="25px">`;
     })}</div> <p class="portfolio__description">${escape(item.description)}</p> <div class="portfolio__buttons"><a class="portfolio__a"${add_attribute("href", item.urlcode, 0)}><img src="icons/brand-github.svg" alt="Logo de GitHub" class="portfolio__code"> <p class="portfolio__url" data-svelte-h="svelte-x6nxit">Código</p></a> <a class="portfolio__a portfolio__a--preview"${add_attribute("href", item.url, 0)}><img src="icons/link_symbol-1.png" alt="Enlace a la web del proyecto" class="portfolio__code"> <p class="portfolio__url" data-svelte-h="svelte-y0z8cl">Ver</p></a> </div></div> </div></div> </div>`;
