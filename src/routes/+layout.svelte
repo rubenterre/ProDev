@@ -8,6 +8,7 @@
 <svelte:head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rubén Terré - Diseño, desarrollo web y formación</title>
 	<link
     rel="icon"
     sizes="16x16"
@@ -64,7 +65,7 @@
 />
   <meta
     name="description"
-    content="Páxina de portfolio de Rubén Terré, diseñador gráfico, desarrollador web y docente."
+    content="Página de portfolio de Rubén Terré, diseñador gráfico, desarrollador web y docente."
   />
   <meta name="author" content="Rubén Arturo Terré Lameiro" />
 
