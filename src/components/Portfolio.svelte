@@ -17,12 +17,20 @@
 			]
 		},
 		
-		/*     {
-        "banner": "images/projects/SoloHistoria.png",
+/*      {
+        "banner": "images/SoloHistoria.webp",
         "name": "SoloHistoria App",
         "description": "Aplicación para aprender historia medieval.",
         "url": "https://www.behance.net/gallery/97500747/SoloHistoria-App-Learning-history",
-        "technologies": "<img class=\"proyectos__icon\"  src=\"icons/skills/html5_icon.svg\" alt=\"HTML\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/css_icon.svg\" alt=\"CSS\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/javascript_icon.svg\" alt=\"JavaScript\" width=\"20px\"> <img class=\"proyectos__icon\" src=\"icons/skills/sketch_dark_icon.svg\" alt=\"Sketch\" width=\"20px\">"
+        "technologies": [
+				{
+					icon: 'icons/html5_icon_white.svg',
+					name: 'HTML'
+				},
+				{ icon: 'icons/css_icon_white.svg', name: 'CSS' },
+				{ icon: 'icons/javascript_icon_white.svg', name: 'JavaScript' },
+				{ icon: 'icons/sketch_icon_white.svg', name: 'Sketch' }
+			]
     }, */
 		{
 			banner: 'images/ADM_Comunicaciones_web.webp',
@@ -100,7 +108,7 @@
 					</div>
 				</div>
 				<h2 class="main__h2">
-					Mostrando algunos de mis <span class="main__span">trabajos</span> en desarrollo y diseño web.
+					Mostrando algunos de mis <span class="main__span">trabajos</span> en desarrollo web y diseño gráfico.
 				</h2>
 				<div class="portfolio__cards">
 					<div class="row">

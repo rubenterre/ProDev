@@ -5,6 +5,7 @@
     import Resume from '../components/Resume.svelte';
     import Portfolio from '../components/Portfolio.svelte';
     import Contact from '../components/Contact.svelte';
+	import Youtube from '../components/Youtube.svelte';
 </script>
 
 <Home/>
@@ -12,5 +13,6 @@
 <Skills/>
 <Resume/>
 <Portfolio/>
+<Youtube/>
 <Contact/>
 
